@@ -57,7 +57,7 @@
 /*
  * Full-duplex I2S DMA loopback for Apollo510B and ADAU1777
  *
- * Apollo510B operates as the I2S slave and provides BCLK and WS to the
+ * Apollo510B operates as the I2S slave and receives BCLK and WS from the
  * ADAU1777. Audio data is transferred in both directions using ping-pong DMA.
  *
  * Signal path:
